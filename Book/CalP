@@ -1,0 +1,53 @@
+public class CalPT{
+    public  static double PT_1(){
+        double[] Value_1 = new double [12]
+        {955,742,873,511,921,461,122,751,721,432,611,711};
+        double sum =0;
+        for (int i = 0;i < 12;i++){
+            sum = sum+Value_1[i];
+        }
+        return sum;
+    }
+
+    public static double PT_2(){
+        double[] Value_2 = new double [12]
+        {911,501,891,712,921,461,171,521,901,831,451,453};
+        double sum =0;
+        for (int i = 0;i < 12;i++){
+            sum = sum+Value_2[i];
+        }
+        return sum;
+    }
+
+    public static double PT_3(){
+        double[] Value_3 = new double [12]
+        {1721,1911,2311,2511,3111,3211,1711,1411,1131,1811,2121,2211};
+        double sum =0;
+        for (int i = 0;i < 12;i++){
+            sum = sum+Value_3[i];
+        }
+        return sum;
+}
+    public static double PT_4(){
+        double[] Value_4 = new double [12]
+        {451,411,110,150,321,610,462,462,131,141,510,610};
+        double sum =0;
+        for (int i = 0;i < 12;i++){
+            sum = sum+Value_4[i];
+        }
+        return sum;}
+
+    public static double PT_5(){
+        double[] Value_5 = new double [12]
+        {1721,2111,2311,2511,3111,610,1711,1141,1131,510,2121,2111};
+        double sum =0;
+        for (int i = 0;i < 12;i++){
+            sum = sum+Value_5[i];
+        }
+        return sum;}
+    public  static double[] Sum_PT(){
+        double[] Sum = {PT_1(),PT_2(),PT_3(),PT_4(),PT_5()};
+        return Sum;
+    }
+    
+}
